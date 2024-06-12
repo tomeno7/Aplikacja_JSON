@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Aplikacja_JSON.Models.Person>
+
+@{
+    ViewData["Title"] = "Lista Osób";
+}
+
+<h2>Lista Osób</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Imię</th>
+            <th>Wiek</th>
+            <th>Miasto</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td>@person.Name</td>
+                <td>@person.Age</td>
+                <td>@person.City</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Dodaj Nową Osobę</h2>
+
+<form asp-action="AddPerson" method="post">
+    <div>
+        <label>Imię:</label>
+        <input type="text" name="Name" required />
+    </div>
+    <div>
+        <label>Wiek:</label>
+        <input type="number" name="Age" required />
+    </div>
+    <div>
+        <label>Miasto:</label>
+        <input type="text" name="City" required />
+    </div>
+    <button type="submit">Dodaj</button>
+</form>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+</style>

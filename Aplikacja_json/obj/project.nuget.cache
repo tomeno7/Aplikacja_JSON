@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1mXlO0Fa/ZpG1CSGAMSjdxHGOI9L/gc1vj2hC8quFCz35B6gnA5u1o9Uwb1ctUFuFPow5/7QtOn1/xGwd8g5Pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tomasz.sieczka\\source\\repos\\Aplikacja_json\\Aplikacja_json\\Aplikacja_json.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tomasz.sieczka\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
