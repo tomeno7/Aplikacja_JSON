@@ -47,6 +47,9 @@ Aplikacja_JSON to przykładowa aplikacja ASP.NET Core MVC, która pozwala na dod
 2. **Dodawanie nowej osoby:**
     - Formularz na stronie głównej pozwala na dodanie nowej osoby. Po przesłaniu formularza dane są zapisywane w pliku `persons.json`.
 
+## Autorzy
+- Tomasz Sieczka
+
 ## Przykładowe dane
 
 Jeśli chcesz przetestować aplikację z przykładowymi danymi, możesz ręcznie dodać dane do pliku `Data/persons.json` w formacie:
@@ -64,6 +67,3 @@ Jeśli chcesz przetestować aplikację z przykładowymi danymi, możesz ręcznie
         "City": "Kraków"
     }
 ]
-
-## Autorzy
-- Tomasz Sieczka
