@@ -65,6 +65,3 @@ Jeśli chcesz przetestować aplikację z przykładowymi danymi, możesz ręcznie
     }
 ]
 
-## Autor
-
-Tomasz Sieczka
