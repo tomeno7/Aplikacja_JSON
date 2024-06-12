@@ -64,3 +64,7 @@ Jeśli chcesz przetestować aplikację z przykładowymi danymi, możesz ręcznie
         "City": "Kraków"
     }
 ]
+
+## Autor
+
+Tomasz Sieczka
